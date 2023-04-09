@@ -14,7 +14,7 @@ class emailaddress{
 		void symbol(){
 		int i=0;
 		for(;i<strlen(str);i++){
-			if(str[i]>='a' & str[i]<='z' | str[i]>='A' & str[i]<='Z' | str[i]>=0 & str[i]<=9 | str[i]=='_' | str[i]=='-' |str[i]=='.'|str[i]=='@'){
+			if(str[i]>='a' & str[i]<='z' | str[i]>='A' & str[i]<='Z' || str[i]>=0 & str[i]<=9 || str[i]=='_' || str[i]=='-' || str[i]=='.'|| str[i]=='@'){
 				x=1;
 			}else{
 				x=0;
