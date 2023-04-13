@@ -4,9 +4,9 @@ class getyuan{
 	private:
 		float r,d,c,s;
 	public:
-		//void shuru(float r){
+		void shuru(float r){
 	
-		//}
+		}
 		void zhijing(float r){
 			d=2*r;
 			cout<<"Ö±¾¶="<<d<<endl;
